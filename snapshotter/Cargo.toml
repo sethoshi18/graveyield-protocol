@@ -19,7 +19,7 @@ name = "grave_snapshotter"
 # anchor-lang 0.32.1 (see Cargo.lock — solana-client 2.3.13 already
 # resolved for the fork-harness stack, so this adds no new resolution).
 solana-client = "2.3"
-solana-sdk = "2.3"
+solana-sdk = "5.0"
 # `UiAccountEncoding` (rpc_config's encoding field) is not re-exported
 # through solana-client 2.3 — it comes from this types crate, already
 # resolved at 2.3.13 in Cargo.lock.
